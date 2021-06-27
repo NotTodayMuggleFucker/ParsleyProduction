@@ -1,6 +1,6 @@
 package AppMusic
 
-//Clase y Objeto
+//Class //Object
 
 
 class Album (band: String, genre: String, year: String = "2015") {

@@ -1,7 +1,6 @@
 package AppMusic
 
-import java.awt.event.ActionEvent
-import javax.swing.JButton
+
 
 
 fun main() {
@@ -24,11 +23,11 @@ fun main() {
 
    val myAlbum = Album("Tame Impala","Alternative, Indie, Psychedelic","2012", "Lonerism")
 
-   //Utilizando named arguments -clase diferente para el año
+   //Named arguments // Year 2012
    //val currents = Album ("Tame Impala","Alternative, Indie, Psychedelic")
 
    println()
-   //Utilizando named arguments /Album y año diferentes
+   //Named arguments // Year 2015
    val currents = Album("Tame Impala","Alternative, Indie, Psychedelic","2015", "Currents")
 
 

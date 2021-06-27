@@ -1,7 +1,7 @@
 package AppMusic
 
 
-//Lista de canciones
+//Playlist
 
 
 
