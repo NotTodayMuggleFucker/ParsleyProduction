@@ -24,11 +24,11 @@ fun main() {
 
    val myAlbum = Album("Tame Impala","Alternative, Indie, Psychedelic","2012", "Lonerism")
 
-   //Utilizando named arguments -clase diferente para el año
+   //named arguments - Example:2012
    //val currents = Album ("Tame Impala","Alternative, Indie, Psychedelic")
 
    println()
-   //Utilizando named arguments /Album y año diferentes
+   //named arguments /Example: 2015
    val currents = Album("Tame Impala","Alternative, Indie, Psychedelic","2015", "Currents")
 
 
