@@ -5,7 +5,7 @@ class Artist {
 
     var isOn = false
 
-    //métodos
+    //method
     fun turnOn(){
         isOn = true
     }
