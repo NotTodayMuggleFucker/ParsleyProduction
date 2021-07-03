@@ -15,7 +15,6 @@ val songs = listOf (
     "Feels Like We Only Go Backwards",
     "Mind Mischief",
     "Cause I'm a Man",
-    "Cause I'm a Man",
     "Let It Happen",
     "The Less I Know the Better",
     "Lost in Yesterday",
