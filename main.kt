@@ -1,12 +1,7 @@
 package AppMusic
 
 
-
-
 fun main() {
-
-
-
 
    println("PLAYLIST")
    println()
@@ -15,12 +10,12 @@ fun main() {
    println()
 
 
-   print("Enter your song: ")
+   print("Enter your song (write Elephant):  ")
    val stringInput = readLine()
    println()
    println()
 
-
+   //Class,Object,Constructor
    val myAlbum = Album("Tame Impala","Alternative, Indie, Psychedelic","2012", "Lonerism")
 
 
@@ -30,7 +25,7 @@ fun main() {
 
    println()
    //named arguments /Example: 2015
-   val currents = Album("Tame Impala","Alternative, Indie, Psychedelic","2015", "Currents")
+   //val currents = Album("Tame Impala","Alternative, Indie, Psychedelic","2015", "Currents")
 
 
    println()
@@ -44,8 +39,19 @@ fun main() {
    println()
    println()
 
+      //Getters, Setters, Visibility modifiers
+      var elephant = Elephant()
 
 
+     println("You have ${elephant.getLives()}")
+     println()
+
+   for(i in 1..13){ //songs to listen to..
+      elephant.collision("Expectation")
+      println("Now ${elephant.getLives()}")
+   }
+
+   
 
 }
 
