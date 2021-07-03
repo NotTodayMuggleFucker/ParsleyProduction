@@ -4,7 +4,7 @@ package AppMusic
 //Getters, Setters, Visibility modifiers - Session 3
 
 
-class Elephant (var songs: Int =1){ //vamos a dejar setear el número de vidas al iniciar el objeto Mario
+class Elephant (var songs: Int =1){ //Our First song
 
     init {
         println("You're listening Elephant!") //name song!
