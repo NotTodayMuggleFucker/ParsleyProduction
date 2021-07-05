@@ -51,7 +51,21 @@ fun main() {
       println("Now ${elephant.getLives()}")
    }
 
-   
+   println()
+   println()
+   ////Object-Oriented Programming II
+   //val nextSong = Lucidity("Lucidity",2)
+
+   //Polymorphism & Inheritance
+   val nextSong = Expectation("Expectation",2)
+   nextSong.collision("Elephant") // collision - show a different song
+   nextSong.collision("Lucidity") // collision - show a different song
+
+   //Polymorphism
+   val nextSong2 = LetItHappen()
+   nextSong2.collision("Lucidity")
+
+
 
 }
 
